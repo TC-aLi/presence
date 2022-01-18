@@ -1,0 +1,34 @@
+2022-01-18 17:12:01 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.KafkaEx.Server0P10AndLater:init/1
+    pid: <0.280.0>
+    registered_name: []
+    exception error: {#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.Enumerable',value => nil},[{'Elixir.Enumerable','impl_for!',1,[{file,"lib/enum.ex"},{line,1}]},{'Elixir.Enumerable',reduce,3,[{file,"lib/enum.ex"},{line,141}]},{'Elixir.Enum',map,2,[{file,"lib/enum.ex"},{line,3383}]},{'Elixir.KafkaEx.Server0P10AndLater',kafka_server_init,1,[{file,"lib/kafka_ex/server_0_p_10_and_later.ex"},{line,96}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: ['Elixir.KafkaEx.Supervisor',<0.278.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.279.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 338
+  neighbours:
+2022-01-18 17:12:01 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.277.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.Enumerable',value => nil},[{'Elixir.Enumerable','impl_for!',1,[{file,"lib/enum.ex"},{line,1}]},{'Elixir.Enumerable',reduce,3,[{file,"lib/enum.ex"},{line,141}]},{'Elixir.Enum',map,2,[{file,"lib/enum.ex"},{line,3383}]},{'Elixir.KafkaEx.Server0P10AndLater',kafka_server_init,1,[{file,"lib/kafka_ex/server_0_p_10_and_later.ex"},{line,96}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]},{'Elixir.KafkaEx',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.276.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.278.0>,normal}]
+    links: [<0.276.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 180
+  neighbours:
